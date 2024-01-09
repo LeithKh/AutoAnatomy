@@ -1,0 +1,43 @@
+body {
+    background-color: #4a4a4a;
+    background-image: url(/images/background.png);
+    background-size: 100% 100% ;
+    margin: 0;
+}
+
+.boxes-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square {
+    background-color: #2d2d2d;
+    border: 8px solid #add8e6;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 370px;
+    margin: 50px;
+}
+
+.square img {
+    width: 80%;
+    height: 300px;
+    padding: 30px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.square p {
+    margin-top: 10px;
+    color: #add8e6;
+    font-size: 30px;
+}
+
+.square a {
+    text-decoration: none;
+}
