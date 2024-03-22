@@ -36,7 +36,7 @@
                 <li><a href="sources.html">Expand your knowledge</a></li>
             </ul>
         </nav>
-        <div class="focus-mode">
+    <div class="focus-mode">
         <div class="step-back">
             <a href="/pages/suspension.html">◀ Suspension catalog</a>     
         </div>
@@ -44,12 +44,17 @@
         <!-- MODEL VIEWPORT -->
         <div class="modelTextContainer">
             <div class="viewportContainer">
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
                 <model-viewer id="modelViewer" src="/models/suspension/new/overview.glb" alt="3D Model viewport" shadow-intensity="0" camera-controls ar exposure="1.0">
-                    <button class="hotspot" slot="hotspot-susp" data-position="0.0285 0 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(0)">
-                        <div class="annotation" onclick="changeModel(1)">Engine Block</div>
+                    <button class="hotspot" slot="hotspot-susp" data-position="0.0 0.0 0.0" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(0)">
+                        <div class="annotation" onclick="changeModel(1)">Suspension base</div>
                     </button>
 
+                    <button class="hotspot" slot="hotspot-crank" data-position="0.0285 -0.008 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(1)">
+                        <div class="annotation" onclick="changeModel(2)">Crank shaft</div>
+                    </button>
 
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
                     <button id="fullscreenButton" onclick="toggleFullscreen()" title="Fullscreen mode"> <img src="/images/fullscreen.png" alt=""></button>
                     <button id="toggleHotspots" onclick="toggleHotspots()" title="Toggle hotspots"> <img src="/images/hotspots.png" alt=""></button>
             </model-viewer>

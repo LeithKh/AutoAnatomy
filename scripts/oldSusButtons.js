@@ -1,14 +1,14 @@
 var currentModelIndex = 0;
 var models = [
-    { src: "/models/suspension/new/overview.glb", title: "Overview", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
-    { src: "/models/suspension/new/conBot.glb", title: "Bottom connecting arm", description: "//todo add text", gif: "/images/suspension/new/part1.gif" },
-    { src: "/models/suspension/new/conTop.glb", title: "Top connecting arm", description: "//todo add text", gif: "/images/suspension/new/part2.gif" },
-    { src: "/models/suspension/new/steer.glb", title: "Toe link", description: "//todo add text", gif: "/images/suspension/new/part3.gif" },
-    { src: "/models/suspension/new/sus.glb", title: "Suspension", description: "//todo add text", gif: "/images/suspension/new/part4.gif" },
-    { src: "/models/suspension/new/disk.glb", title: "Brake disk assembly", description: "//todo add text", gif: "/images/suspension/new/part5.gif" },
-    { src: "/models/suspension/new/stab.glb", title: "Stabilizer", description: "//todo add text", gif: "/images/suspension/new/part6.gif" },
-    { src: "/models/suspension/new/brakes.glb", title: "Brake caliper, pads and master cylinder", description: "//todo add text", gif: "/images/suspension/new/part7.gif" },
-    { src: "/models/suspension/new/hubMain.glb", title: "Hub assembly", description: "//todo add text", gif: "/images/suspension/new/part8.gif" }
+    { src: "/models/suspension/old/overview.glb", title: "Overview", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/suspension/old/hub.glb", title: "Base hub", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/suspension/old/conArm.glb", title: "Connecting arm", description: "//todo add text", gif: "/images/suspension/old/part1.gif" },
+    { src: "/models/suspension/old/steer.glb", title: "Toe link", description: "//todo add text", gif: "/images/suspension/old/part2.gif" },
+    { src: "/models/suspension/old/susp.glb", title: "Suspension coilover", description: "//todo add text", gif: "/images/suspension/old/part3.gif" },
+    { src: "/models/suspension/old/stable.glb", title: "Stabilizer", description: "//todo add text", gif: "/images/suspension/old/part4.gif" },
+    { src: "/models/suspension/old/brakeBase.glb", title: "Brake shoe assembly", description: "//todo add text", gif: "/images/suspension/old/part5.gif" },
+    { src: "/models/suspension/old/hubInside.glb", title: "Hub assembly", description: "//todo add text", gif: "/images/suspension/old/part6.gif" },
+    { src: "/models/suspension/old/hubcapNbrake.glb", title: "Hub cap and brake cover", description: "//todo add text", gif: "/images/suspension/old/part7.gif" }
 ];
 
 function changeModel(direction) {

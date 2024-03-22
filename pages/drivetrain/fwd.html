@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Auto Anatomy - FWD</title>
+        <link rel="stylesheet" type="text/css" href="/css/defaults.css">
+        <link rel="stylesheet" type="text/css" href="/css/focusMode.css">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="generator" content="Geany 1.37.1" />
+        <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>    
+    </head>
+
+    <body>
+
+        <div id="loading-screen">
+            <div class="loader">
+                <div class="inner one"></div>
+                <div class="inner two"></div>
+                <div class="inner three"></div>
+            </div>
+        </div>
+
+        <header>
+            <h1>Auto Anatomy</h1>
+            <h6>your one-stop shop for car knowledge!</h6>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="/pages/index.html">Home</a></li>
+                <li><a href="/pages/quizes.html">Quizes</a></li>
+                <li><a href="diy.html">Diagnose - It - Yourself</a></li>
+                <li><a href="sources.html">Expand your knowledge</a></li>
+            </ul>
+        </nav>
+    <div class="focus-mode">
+        <div class="step-back">
+            <a href="/pages/drivetrain.html">◀ Drivetrain catalog</a>      
+        </div>
+
+        <!-- MODEL VIEWPORT -->
+        <div class="modelTextContainer">
+            <div class="viewportContainer">
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+            <model-viewer id="modelViewer" src="/models/drivetrain/fwd/fwdTran.glb" alt="3D Model viewport" shadow-intensity="0" camera-controls ar exposure="1.0">
+                <button class="hotspot" slot="hotspot-engine" data-position="0.0285 0 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(0)">
+                    <div class="annotation" onclick="changeModel(1)">Engine Block</div>
+                </button>
+                
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+                
+                    <button id="fullscreenButton" onclick="toggleFullscreen()" title="Fullscreen mode"> <img src="/images/fullscreen.png" alt=""></button>
+                    <button id="toggleHotspots" onclick="toggleHotspots()" title="Toggle hotspots"> <img src="/images/hotspots.png" alt=""></button>
+            </model-viewer>
+            </div>
+    
+            <div class="textContainer">
+                <h2 id="modelTitle">Overview</h2>
+                <p id="modelDescription">placeholder </p>
+            </div>
+        </div>
+    
+        <div class="buttonsContainer">
+            <button onclick="changeModel(-1)">◀ Previous part</button>
+            <button onclick="showAssemblyPopup()">Assembly guide</button>
+            <button onclick="changeModel(1)">Next part ▶</button>
+        </div>
+    
+        <div id="overlay" onclick="closeAssemblyPopup()"></div>
+    
+        <div id="assemblyPopup" class="popup">
+            <img id="assemblyGif" src="" alt="Assembly Gif">
+            <span class="close" onclick="closeAssemblyPopup()">&times;</span>
+        </div>
+        
+            <script type="module"
+                src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+            </script>
+
+            <!-- Loads <model-viewer> for old browsers like IE11: -->
+            <script nomodule
+                src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+            </script>
+        
+        <footer class="footer">
+            <p>&copy;</span> Property of EL Kay/BSUIR. All rights reserved. 2024</p>
+        </footer>
+    </div>
+        <script src="/scripts/loading.js"></script>
+        <script src="/scripts/fwdButtons.js"></script> 
+
+    </body>
+</html>
