@@ -37,11 +37,10 @@ function changeModel(direction) {
     var modelViewer = document.getElementById("modelViewer");
     var modelTitle = document.getElementById("modelTitle");
     var modelDescription = document.getElementById("modelDescription");
-
     modelViewer.setAttribute("src", models[currentModelIndex].src);
     modelTitle.innerText = models[currentModelIndex].title;
     modelDescription.innerText = models[currentModelIndex].description;
-
+    toggleHotspots()
     closeAssemblyPopup(); // Close the popup when changing models
 }
 
@@ -63,8 +62,46 @@ function closeAssemblyPopup() {
     overlay.style.display = "none";
 }
 
+function toggleAnnotation(hotspotIndex) {
+  const annotations = document.querySelectorAll('.annotation');
+
+  annotations.forEach(function(annotation, index) {
+      if (index === hotspotIndex) {
+          annotation.style.display = (annotation.style.display === 'none' || annotation.style.display === '') ? 'block' : 'none';
+      } else {
+          annotation.style.display = 'none';
+      }
+  });
+}
+
+function toggleHotspots() {
+  const modelTitle = document.getElementById('modelTitle');
+  const hotspots = document.querySelectorAll('.hotspot');
+  
+  if (modelTitle.innerText !== 'Overview') {
+    hotspots.forEach(function(hotspot) {
+      hotspot.style.display = 'none';
+    });
+  } else {
+    hotspots.forEach(function(hotspot) {
+      hotspot.style.display = (hotspot.style.display === 'none' || hotspot.style.display === '') ? 'block' : 'none';
+    });
+  }
+}
+
 function toggleFullscreen() {
-    const modelViewer = document.getElementById('modelViewer');
+  const modelViewer = document.getElementById('modelViewer');
+  if (document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  } else {
     if (modelViewer.requestFullscreen) {
       modelViewer.requestFullscreen();
     } else if (modelViewer.mozRequestFullScreen) {
@@ -75,3 +112,4 @@ function toggleFullscreen() {
       modelViewer.msRequestFullscreen();
     }
   }
+}

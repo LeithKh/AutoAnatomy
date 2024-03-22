@@ -12,7 +12,9 @@ body, p, img {
 }
 
 html {
-    font-family: 'CustomFont', sans-serif;
+    /*font-family: 'CustomFont', sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
 }
 
 header {
@@ -27,52 +29,79 @@ header h1 {
 }
 
 header h6 {
-    font-family:'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
+    font-weight: normal;
     color: #cecece;
     margin: 0;
     margin-bottom: 20px;
 }
 
 nav {
-    background-color: #add8e6;
-    height: 60px;
-    margin-bottom: 50px;
-}
-
-nav ul {
+    /*background-color: #add8e6;*/
+    background-color: #00000052;
+    height: 80px;
+    margin-bottom: 0px;
+  }
+  
+  nav ul {
     list-style-type: none;
     margin: 10;
     padding: 10;
     display: flex;
-    justify-content: center; 
-}
-
-nav li {
+    justify-content: center;
+  }
+  
+  nav li {
     display: inline-block;
     font-size: 22px;
     margin: 20px;
     margin-top: 7px;
-}
-
-nav a:hover {
-    color: black  ;
-}
-
-nav li a {
+  }
+  
+  nav a {
     display: block;
-    padding: 10px;
-    color: #333;
+    padding: 20px;
+    color: #cecece;
     text-decoration: none;
+    transition: padding 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 22px; /* Increase the padding to make the button slightly bigger */
+  }
+  
+  nav li a.active {
+    background-color: #72c0d9;
+    border-radius: 15px;
+  }
+
+.step-back {
+    display: inline-block;
+    margin: 20px 0px 20px 20px;
+    transition: margin-left 0.3s, box-shadow 0.3s;
 }
 
-nav li a.active {
+.step-back a {
+    display: block;
+    padding: 15px;
     background-color: #72c0d9;
-    border: 1px solid #add8e6;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.step-back:hover {
+    margin-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     border-radius: 15px;
 }
 
 .footer {
+    font-weight:normal;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +121,7 @@ nav li a.active {
 
 model-viewer {
     width:100%;
-    height:600px;
+    height:700px;
     background-color:rgba(80, 80, 80, 0);
 }
 
@@ -105,10 +134,10 @@ model-viewer {
 }
 
 .viewportContainer {
-    width: 50%;
-    height: 600px;
+    width: 100%;
+    height: 700px;
     background-color: rgba(80, 80, 80, 0);
-    border: 5px solid #72c0d9;
+    border: 3px solid #72c0d9;
     border-radius: 15px;
 }
 
@@ -146,45 +175,35 @@ model-viewer {
     padding: 15px 30px;
     font-size: 18px;
     color: black;
-    background-color: rgb(251, 125, 125);
+    background-color: #72c0d9;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    font-family: 'CustomFont';
-    src: url('/misc/NFS_by_JLTV.ttf') format('truetype');
-}
-
-.buttonsContainer button:nth-child(2) {
-    background-color: rgb(251, 251, 125);
-}
-
-.buttonsContainer button:nth-child(3) {
-    background-color: rgb(125, 251, 131);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition: margin-top 0.3s;
 }
 
 .buttonsContainer button:hover {
-    background-color: rgb(165, 59, 59);
-}
-
-.buttonsContainer button:nth-child(2):hover {
-    background-color: rgb(200, 200, 43);
-}
-
-.buttonsContainer button:nth-child(3):hover {
-    background-color: rgb(41, 171, 48);
+    background-color: #add8e6;
 }
 
 .buttonsContainer button:active {
     background-color: rgb(109, 109, 109);
 }
 
-.buttonsContainer button:nth-child(2):active{
-    background-color: rgb(109, 109, 109);
+.buttonsContainer button:nth-child(1):hover{
+    margin-top: -8px;
 }
 
-.buttonsContainer button:nth-child(3):active {
-    background-color: rgb(109, 109, 109);
+.buttonsContainer button:nth-child(2):hover{
+    margin-top: -8px;
 }
+
+.buttonsContainer button:nth-child(3):hover{
+    margin-top: -8px;
+}
+
 
 .popup {
     position: fixed;
@@ -226,17 +245,30 @@ model-viewer {
     cursor: pointer;
 }
 
-#fullscreenButton {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
+#fullscreenButton,
+#toggleHotspots {
+  background-color: #333;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.2s ease-in-out;
+}
 
+#fullscreenButton:hover,
+#toggleHotspots:hover {
+  transform: translateY(3px);
+}
+
+#fullscreenButton img,
+#toggleHotspots img {
+  width: 30px;
+  padding: 0px;
+  margin: 0px;
+}
   
 #loading-screen {
     position: fixed;
@@ -270,4 +302,30 @@ model-viewer {
     0% { opacity: 1; }
     70% { opacity: 1; }
     100% { opacity: 0; display: none; }
+}
+
+.hotspot{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #72bfd954;
+    border: 3px solid rgba(0, 0, 0, 0.629);
+    box-sizing: border-box;
+    pointer-events: auto;
+  }
+
+.annotation{
+  border: 2px solid black;
+  background-color: #888888;
+  position: absolute;
+  transform: translate(10px, 10px);
+  border-radius: 10px;
+  padding: 10px;
+  display: none;
+}
+
+/* This keeps child nodes hidden while the element loads */
+:not(:defined) > * {
+  display: none;
 }

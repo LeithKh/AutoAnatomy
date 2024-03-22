@@ -37,11 +37,18 @@
             </ul>
         </nav>
 
+        <div class="step-back">
+            <a href="/pages/suspension.html">◀ Suspension catalog</a>     
+        </div>
+
         <!-- MODEL VIEWPORT -->
         <div class="modelTextContainer">
             <div class="viewportContainer">
-                <model-viewer id="modelViewer" src="/models/suspension/overview.glb" alt="3D Model viewport" shadow-intensity="0" camera-controls ar></model-viewer>
-                <button id="fullscreenButton" onclick="toggleFullscreen()">Fullscreen</button>
+                <model-viewer id="modelViewer" src="/models/suspension/overview.glb" alt="3D Model viewport" shadow-intensity="0" camera-controls ar>
+                    
+                    <button id="fullscreenButton" onclick="toggleFullscreen()" title="Fullscreen mode"> <img src="/images/fullscreen.png" alt=""></button>
+                    <button id="toggleHotspots" onclick="toggleHotspots()" title="Toggle hotspots"> <img src="/images/hotspots.png" alt=""></button>
+            </model-viewer>
             </div>
     
             <div class="textContainer">
@@ -51,9 +58,9 @@
         </div>
     
         <div class="buttonsContainer">
-            <button onclick="changeModel(-1)">Previous part</button>
+            <button onclick="changeModel(-1)">◀ Previous part</button>
             <button onclick="showAssemblyPopup()">Assembly guide</button>
-            <button onclick="changeModel(1)">Next part</button>
+            <button onclick="changeModel(1)">Next part ▶</button>
         </div>
     
         <div id="overlay" onclick="closeAssemblyPopup()"></div>

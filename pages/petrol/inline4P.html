@@ -11,6 +11,8 @@
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <meta name="generator" content="Geany 1.37.1" />
         <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
+        
+</head>
     </head>
 
     <body>
@@ -36,12 +38,112 @@
                 <li><a href="sources.html">Expand your knowledge</a></li>
             </ul>
         </nav>
+    <div class="focus-mode">
+        <div class="step-back">
+            <a href="/pages/engines.html">◀ Engines catalog</a>      
+        </div>
 
         <!-- MODEL VIEWPORT -->
         <div class="modelTextContainer">
             <div class="viewportContainer">
-                <model-viewer id="modelViewer" src="/models/i4/overview.glb" alt="3D Model viewport" shadow-intensity="0" camera-controls ar></model-viewer>
-                <button id="fullscreenButton" onclick="toggleFullscreen()">Fullscreen</button>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+            <model-viewer id="modelViewer" src="/models/i4/overview.glb" alt="3D Model viewport" shadow-intensity="0" camera-controls ar exposure="1.0">
+                <button class="hotspot" slot="hotspot-engine" data-position="0.0285 0 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(0)">
+                    <div class="annotation" onclick="changeModel(1)">Engine Block</div>
+                </button>
+                
+                <button class="hotspot" slot="hotspot-crank" data-position="0.0285 -0.008 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(1)">
+                    <div class="annotation" onclick="changeModel(2)">Crank shaft</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-conrods" data-position="0.0285 0.005 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(2)">
+                    <div class="annotation" onclick="changeModel(3)">Connecting rods</div>
+                </button>
+                
+                <button class="hotspot" slot="hotspot-oil" data-position="0.0285 -0.015 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(3)">
+                    <div class="annotation" onclick="changeModel(4)">Oil pan</div>
+                </button>
+                
+                <button class="hotspot" slot="hotspot-cylhead" data-position="0.0285 0.01 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(4)">
+                    <div class="annotation" onclick="changeModel(5)">Cylinder head</div>
+                </button>
+                
+                <button class="hotspot" slot="hotspot-camshaft" data-position="0.0285 0.0155 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(5)">
+                    <div class="annotation" onclick="changeModel(6)">Camshafts</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-coils" data-position="0.0285 0.025 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(6)">
+                    <div class="annotation" onclick="changeModel(7)">coils</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-cylheadcov" data-position="0.0285 0.018 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(7)">
+                    <div class="annotation" onclick="changeModel(8)">Cylinder head cover</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-camgears" data-position="0.0175 0.005 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(8)">
+                    <div class="annotation" onclick="changeModel(9)">Camshaft gears</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-timing" data-position="0.015 0.005 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(9)">
+                    <div class="annotation" onclick="changeModel(10)">Timing cover</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-pull" data-position="0.01 -0.0025 0.0005" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(10)">
+                    <div class="annotation" onclick="changeModel(11)">Pulley</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-water" data-position="0.011 0.0005 0.0035" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(11)">
+                    <div class="annotation" onclick="changeModel(12)">Water pump</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-power" data-position="0.023 0.0005 -0.008" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(12)">
+                    <div class="annotation" onclick="changeModel(13)">Powersteering pump</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-alternator" data-position="0.023 0.0005 0.013" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(13)">
+                    <div class="annotation" onclick="changeModel(14)">Alternator</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-tens" data-position="0.005 -0.0025 0.0005" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(14)">
+                    <div class="annotation" onclick="changeModel(15)">Tensioner and belts</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-injec" data-position="0.0285 0.01 -0.009" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(15)">
+                    <div class="annotation" onclick="changeModel(16)">Injectors</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-intake" data-position="0.0285 0.006 -0.011" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(16)">
+                    <div class="annotation" onclick="changeModel(17)">Intake manifold</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-throttle" data-position="0.019 0.005 -0.004" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(17)">
+                    <div class="annotation" onclick="changeModel(18)">Throttle body</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-exhaust" data-position="0.0285 0.004 0.008" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(18)">
+                    <div class="annotation" onclick="changeModel(19)">Exhaust manifold</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-turbo" data-position="0.0275 -0.004 0.009" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(19)">
+                    <div class="annotation" onclick="changeModel(20)">Turbo</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-starter" data-position="0.0295 -0.0015 0.004" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(20)">
+                    <div class="annotation" onclick="changeModel(21)">Starter</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-oilfilter" data-position="0.031 -0.012 0.005" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(21)">
+                    <div class="annotation" onclick="changeModel(22)">Oil filter</div>
+                </button>
+
+                <button class="hotspot" slot="hotspot-fuelfilter" data-position="0.0335 0.014 -0.0028" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(22)">
+                    <div class="annotation" onclick="changeModel(23)">Fuel filter</div>
+                </button>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+                
+                    <button id="fullscreenButton" onclick="toggleFullscreen()" title="Fullscreen mode"> <img src="/images/fullscreen.png" alt=""></button>
+                    <button id="toggleHotspots" onclick="toggleHotspots()" title="Toggle hotspots"> <img src="/images/hotspots.png" alt=""></button>
+            </model-viewer>
             </div>
     
             <div class="textContainer">
@@ -51,9 +153,9 @@
         </div>
     
         <div class="buttonsContainer">
-            <button onclick="changeModel(-1)">Previous part</button>
+            <button onclick="changeModel(-1)">◀ Previous part</button>
             <button onclick="showAssemblyPopup()">Assembly guide</button>
-            <button onclick="changeModel(1)">Next part</button>
+            <button onclick="changeModel(1)">Next part ▶</button>
         </div>
     
         <div id="overlay" onclick="closeAssemblyPopup()"></div>
@@ -75,9 +177,9 @@
         <footer class="footer">
             <p>&copy;</span> Property of EL Kay/BSUIR. All rights reserved. 2024</p>
         </footer>
-
+    </div>
         <script src="/scripts/loading.js"></script>
-        <script src="/scripts/engButtonsi4.js"></script>
+        <script src="/scripts/engButtonsi4.js"></script> 
 
     </body>
 </html>
