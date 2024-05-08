@@ -49,3 +49,63 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    text-align: center;
+  }
+
+  #quiz-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+
+  #question-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #question-image {
+    max-width: 90%;
+    height: auto;
+  }
+
+  #options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .option {
+    flex-basis: 45%; /* Adjust this value as needed */
+    margin: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #result-container {
+    display: none;
+    text-align: center;
+  }
+
+  #next-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .boxes-selection {
+    margin-top: 230px;
+  }
+}

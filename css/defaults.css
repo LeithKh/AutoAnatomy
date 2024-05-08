@@ -150,7 +150,7 @@ model-viewer {
 
 .textContainer h2 {
     color: #72c0d9;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 31px;
     margin-bottom: 10px;
     margin-top: 0px;
@@ -330,3 +330,55 @@ model-viewer {
 :not(:defined) > * {
   display: none;
 }
+
+/* Media query for screens with a maximum width of 600px */
+@media only screen and (max-width: 1000px) {
+
+    nav {
+        background-color: #00000000;
+      }
+
+    .NavBar {
+      text-align: center;
+      padding: 20px;
+      padding-bottom: 230px;
+    }
+    
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      z-index: 1;
+    }
+    
+    nav li {
+      margin-bottom: 10px;
+    }
+    
+    .boxes-selection {
+      margin-top: 20px;
+    }
+
+    .step-back {
+      margin-top: 260px;
+    }
+
+    .modelTextContainer {
+        display: block;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .viewportContainer {
+
+        width: 90%;
+        height: 700px;
+        background-color: rgba(80, 80, 80, 0);
+        border: 3px solid #72c0d9;
+        border-radius: 15px;
+    }
+
+  }
