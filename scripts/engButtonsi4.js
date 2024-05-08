@@ -40,7 +40,7 @@ function changeModel(direction) {
     modelViewer.setAttribute("src", models[currentModelIndex].src);
     modelTitle.innerText = models[currentModelIndex].title;
     modelDescription.innerText = models[currentModelIndex].description;
-    toggleHotspots()
+    toggleHotspots() //removes hotspot if switching from overview to specific part
     closeAssemblyPopup(); // Close the popup when changing models
 }
 

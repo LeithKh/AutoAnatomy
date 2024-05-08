@@ -1,7 +1,14 @@
 var currentModelIndex = 0;
 var models = [
-    { src: "/models/suspension/overview.glb", title: "Overview", description: "//todo add text", gif: "/images/suspension/overview.gif" },
-    { src: "/models/suspension/block.glb", title: "Engine block", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/drivetrain/rwd/tran.glb", title: "Transmission", description: "//todo add text", gif: "/images/suspension/overview.gif" },
+    { src: "/models/drivetrain/fwd/fwdFly.glb", title: "Flywheel", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/drivetrain/fwd/fwdClutch.glb", title: "Clutch", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/drivetrain/fwd/fwdBear.glb", title: "Clutch bearing", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/drivetrain/fwd/fwdPressPlate.glb", title: "Pressure plate", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/drivetrain/rwd/hub.glb", title: "Wheel hub", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/drivetrain/rwd/halfshaft.glb", title: "Halfshaft", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/drivetrain/rwd/dif.glb", title: "Differential", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" },
+    { src: "/models/drivetrain/rwd/driveshaft.glb", title: "Driveshaft", description: "//todo add text", gif: "/images/noAssemblyAnim.jpg" }
 ];
 
 function changeModel(direction) {

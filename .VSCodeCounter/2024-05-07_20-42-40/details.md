@@ -1,0 +1,154 @@
+# Details
+
+Date : 2024-05-07 20:42:40
+
+Directory c:\\Users\\subar\\OneDrive\\Desktop\\Diplome
+
+Total : 139 files,  68428 codes, 54 comments, 609 blanks, all 69091 lines
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [css/defaults.css](/css/defaults.css) | CSS | 284 | 4 | 44 | 332 |
+| [css/diy.css](/css/diy.css) | CSS | 28 | 0 | 3 | 31 |
+| [css/engines.css](/css/engines.css) | CSS | 68 | 0 | 11 | 79 |
+| [css/focusMode.css](/css/focusMode.css) | CSS | 10 | 0 | 1 | 11 |
+| [css/index.css](/css/index.css) | CSS | 38 | 2 | 6 | 46 |
+| [css/quiz.css](/css/quiz.css) | CSS | 44 | 0 | 7 | 51 |
+| [css/sources.css](/css/sources.css) | CSS | 38 | 0 | 6 | 44 |
+| [css/temp models.css](/css/temp%20models.css) | CSS | 9 | 0 | 1 | 10 |
+| [models/drivetrain/fwd/fwdBear.glb.log](/models/drivetrain/fwd/fwdBear.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/drivetrain/fwd/fwdClutch.glb.log](/models/drivetrain/fwd/fwdClutch.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/drivetrain/fwd/fwdFly.glb.log](/models/drivetrain/fwd/fwdFly.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/drivetrain/fwd/fwdHalfshaft.glb.log](/models/drivetrain/fwd/fwdHalfshaft.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/drivetrain/fwd/fwdHub.glb.log](/models/drivetrain/fwd/fwdHub.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/drivetrain/fwd/fwdPressPlate.glb.log](/models/drivetrain/fwd/fwdPressPlate.glb.log) | Log | 627 | 0 | 1 | 628 |
+| [models/drivetrain/fwd/fwdTran.glb.log](/models/drivetrain/fwd/fwdTran.glb.log) | Log | 627 | 0 | 1 | 628 |
+| [models/drivetrain/rwd/dif.glb.log](/models/drivetrain/rwd/dif.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/drivetrain/rwd/driveshaft.glb.log](/models/drivetrain/rwd/driveshaft.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/drivetrain/rwd/halfshaft.glb.log](/models/drivetrain/rwd/halfshaft.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/drivetrain/rwd/hub.glb.log](/models/drivetrain/rwd/hub.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/drivetrain/rwd/tran.glb.log](/models/drivetrain/rwd/tran.glb.log) | Log | 633 | 0 | 1 | 634 |
+| [models/ev/battery.glb.log](/models/ev/battery.glb.log) | Log | 569 | 0 | 1 | 570 |
+| [models/i4/ConRodsPistons.glb.log](/models/i4/ConRodsPistons.glb.log) | Log | 656 | 0 | 1 | 657 |
+| [models/i4/alternator.glb.log](/models/i4/alternator.glb.log) | Log | 615 | 0 | 1 | 616 |
+| [models/i4/block.glb.log](/models/i4/block.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/i4/camshaftGears.glb.log](/models/i4/camshaftGears.glb.log) | Log | 524 | 0 | 1 | 525 |
+| [models/i4/camshafts.glb.log](/models/i4/camshafts.glb.log) | Log | 524 | 0 | 1 | 525 |
+| [models/i4/crankshaft.glb.log](/models/i4/crankshaft.glb.log) | Log | 572 | 0 | 1 | 573 |
+| [models/i4/crankshaftPulley.glb.log](/models/i4/crankshaftPulley.glb.log) | Log | 524 | 0 | 1 | 525 |
+| [models/i4/fuelFilter.glb.log](/models/i4/fuelFilter.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/i4/header.glb.log](/models/i4/header.glb.log) | Log | 602 | 0 | 1 | 603 |
+| [models/i4/headerCover.glb.log](/models/i4/headerCover.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/i4/headerExhaustNShield.glb.log](/models/i4/headerExhaustNShield.glb.log) | Log | 669 | 0 | 1 | 670 |
+| [models/i4/injectors.glb.log](/models/i4/injectors.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/i4/intakeChamber.glb.log](/models/i4/intakeChamber.glb.log) | Log | 566 | 0 | 1 | 567 |
+| [models/i4/oilFilter.glb.log](/models/i4/oilFilter.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/i4/oilPan.glb.log](/models/i4/oilPan.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/i4/powersteering.glb.log](/models/i4/powersteering.glb.log) | Log | 524 | 0 | 1 | 525 |
+| [models/i4/sparkCoil.glb.log](/models/i4/sparkCoil.glb.log) | Log | 639 | 0 | 1 | 640 |
+| [models/i4/starter.glb.log](/models/i4/starter.glb.log) | Log | 609 | 0 | 1 | 610 |
+| [models/i4/tensionerNBelts.glb.log](/models/i4/tensionerNBelts.glb.log) | Log | 706 | 0 | 1 | 707 |
+| [models/i4/throttlebody.glb.log](/models/i4/throttlebody.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/i4/timingBeltCover.glb.log](/models/i4/timingBeltCover.glb.log) | Log | 627 | 0 | 1 | 628 |
+| [models/i4/turbo.glb.log](/models/i4/turbo.glb.log) | Log | 609 | 0 | 1 | 610 |
+| [models/i4/waterpump.glb.log](/models/i4/waterpump.glb.log) | Log | 530 | 0 | 1 | 531 |
+| [models/rotary/alter.glb.log](/models/rotary/alter.glb.log) | Log | 615 | 0 | 1 | 616 |
+| [models/rotary/carb.glb.log](/models/rotary/carb.glb.log) | Log | 542 | 0 | 1 | 543 |
+| [models/rotary/chainNCover.glb.log](/models/rotary/chainNCover.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/rotary/counterweight.glb.log](/models/rotary/counterweight.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/rotary/crankshaft.glb.log](/models/rotary/crankshaft.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/rotary/distributor.glb.log](/models/rotary/distributor.glb.log) | Log | 621 | 0 | 1 | 622 |
+| [models/rotary/endplate.glb.log](/models/rotary/endplate.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/rotary/exhaust.glb.log](/models/rotary/exhaust.glb.log) | Log | 542 | 0 | 1 | 543 |
+| [models/rotary/fan.glb.log](/models/rotary/fan.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/rotary/filter.glb.log](/models/rotary/filter.glb.log) | Log | 791 | 0 | 1 | 792 |
+| [models/rotary/frontEndplate.glb.log](/models/rotary/frontEndplate.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/rotary/harm.glb.log](/models/rotary/harm.glb.log) | Log | 524 | 0 | 1 | 525 |
+| [models/rotary/housing.glb.log](/models/rotary/housing.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/rotary/intakeMani.glb.log](/models/rotary/intakeMani.glb.log) | Log | 542 | 0 | 1 | 543 |
+| [models/rotary/midplate.glb.log](/models/rotary/midplate.glb.log) | Log | 688 | 0 | 1 | 689 |
+| [models/rotary/oilpan.glb.log](/models/rotary/oilpan.glb.log) | Log | 548 | 0 | 1 | 549 |
+| [models/rotary/overview.glb.log](/models/rotary/overview.glb.log) | Log | 1,538 | 0 | 1 | 1,539 |
+| [models/rotary/rotor.glb.log](/models/rotary/rotor.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/rotary/spark.glb.log](/models/rotary/spark.glb.log) | Log | 621 | 0 | 1 | 622 |
+| [models/rotary/tensBelt.glb.log](/models/rotary/tensBelt.glb.log) | Log | 724 | 0 | 1 | 725 |
+| [models/rotary/timingCover.glb.log](/models/rotary/timingCover.glb.log) | Log | 578 | 0 | 1 | 579 |
+| [models/rotary/water.glb.log](/models/rotary/water.glb.log) | Log | 536 | 0 | 1 | 537 |
+| [models/rotary/waterpump.glb.log](/models/rotary/waterpump.glb.log) | Log | 536 | 0 | 1 | 537 |
+| [models/suspension/new/brakes.glb.log](/models/suspension/new/brakes.glb.log) | Log | 688 | 0 | 1 | 689 |
+| [models/suspension/new/conBot.glb.log](/models/suspension/new/conBot.glb.log) | Log | 712 | 0 | 1 | 713 |
+| [models/suspension/new/conTop.glb.log](/models/suspension/new/conTop.glb.log) | Log | 706 | 0 | 1 | 707 |
+| [models/suspension/new/disk.glb.log](/models/suspension/new/disk.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/suspension/new/hub.glb.log](/models/suspension/new/hub.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/suspension/new/hubMain.glb.log](/models/suspension/new/hubMain.glb.log) | Log | 688 | 0 | 1 | 689 |
+| [models/suspension/new/overview.glb.log](/models/suspension/new/overview.glb.log) | Log | 1,595 | 0 | 1 | 1,596 |
+| [models/suspension/new/stab.glb.log](/models/suspension/new/stab.glb.log) | Log | 609 | 0 | 1 | 610 |
+| [models/suspension/new/steer.glb.log](/models/suspension/new/steer.glb.log) | Log | 609 | 0 | 1 | 610 |
+| [models/suspension/new/sus.glb.log](/models/suspension/new/sus.glb.log) | Log | 694 | 0 | 1 | 695 |
+| [models/suspension/old/brakeBase.glb.log](/models/suspension/old/brakeBase.glb.log) | Log | 688 | 0 | 1 | 689 |
+| [models/suspension/old/conArm.glb.log](/models/suspension/old/conArm.glb.log) | Log | 712 | 0 | 1 | 713 |
+| [models/suspension/old/hub.glb.log](/models/suspension/old/hub.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/suspension/old/hubInside.glb.log](/models/suspension/old/hubInside.glb.log) | Log | 700 | 0 | 1 | 701 |
+| [models/suspension/old/hubcapNbrake.glb.log](/models/suspension/old/hubcapNbrake.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/suspension/old/overview.glb.log](/models/suspension/old/overview.glb.log) | Log | 1,443 | 0 | 1 | 1,444 |
+| [models/suspension/old/stable.glb.log](/models/suspension/old/stable.glb.log) | Log | 609 | 0 | 1 | 610 |
+| [models/suspension/old/steer.glb.log](/models/suspension/old/steer.glb.log) | Log | 609 | 0 | 1 | 610 |
+| [models/suspension/old/susp.glb.log](/models/suspension/old/susp.glb.log) | Log | 718 | 0 | 1 | 719 |
+| [models/v6/alter.glb.log](/models/v6/alter.glb.log) | Log | 694 | 0 | 1 | 695 |
+| [models/v6/beltTens.glb.log](/models/v6/beltTens.glb.log) | Log | 876 | 0 | 1 | 877 |
+| [models/v6/block.glb.log](/models/v6/block.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/v6/camGears.glb.log](/models/v6/camGears.glb.log) | Log | 627 | 0 | 1 | 628 |
+| [models/v6/cams.glb.log](/models/v6/cams.glb.log) | Log | 759 | 0 | 1 | 760 |
+| [models/v6/chainTensShoe.glb.log](/models/v6/chainTensShoe.glb.log) | Log | 639 | 0 | 1 | 640 |
+| [models/v6/conrodPiston.glb.log](/models/v6/conrodPiston.glb.log) | Log | 759 | 0 | 1 | 760 |
+| [models/v6/crankshaft.glb.log](/models/v6/crankshaft.glb.log) | Log | 651 | 0 | 1 | 652 |
+| [models/v6/cylHead.glb.log](/models/v6/cylHead.glb.log) | Log | 675 | 0 | 1 | 676 |
+| [models/v6/cylHeadCover.glb.log](/models/v6/cylHeadCover.glb.log) | Log | 875 | 0 | 1 | 876 |
+| [models/v6/engineCover.glb.log](/models/v6/engineCover.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/v6/exhaust.glb.log](/models/v6/exhaust.glb.log) | Log | 699 | 0 | 1 | 700 |
+| [models/v6/harm.glb.log](/models/v6/harm.glb.log) | Log | 603 | 0 | 1 | 604 |
+| [models/v6/injectors.glb.log](/models/v6/injectors.glb.log) | Log | 524 | 0 | 1 | 525 |
+| [models/v6/intake.glb.log](/models/v6/intake.glb.log) | Log | 621 | 0 | 1 | 622 |
+| [models/v6/oilfilter.glb.log](/models/v6/oilfilter.glb.log) | Log | 518 | 0 | 1 | 519 |
+| [models/v6/oilpan.glb.log](/models/v6/oilpan.glb.log) | Log | 560 | 0 | 1 | 561 |
+| [models/v6/overview.glb.log](/models/v6/overview.glb.log) | Log | 1,899 | 0 | 1 | 1,900 |
+| [models/v6/powersteering.glb.log](/models/v6/powersteering.glb.log) | Log | 609 | 0 | 1 | 610 |
+| [models/v6/spark.glb.log](/models/v6/spark.glb.log) | Log | 687 | 0 | 1 | 688 |
+| [models/v6/throttle.glb.log](/models/v6/throttle.glb.log) | Log | 621 | 0 | 1 | 622 |
+| [models/v6/timingCover.glb.log](/models/v6/timingCover.glb.log) | Log | 621 | 0 | 1 | 622 |
+| [models/v6/waterpumpNPulley.glb.log](/models/v6/waterpumpNPulley.glb.log) | Log | 645 | 0 | 1 | 646 |
+| [pages/diy.html](/pages/diy.html) | HTML | 55 | 0 | 10 | 65 |
+| [pages/diy/clutchTrouble.html](/pages/diy/clutchTrouble.html) | HTML | 109 | 0 | 14 | 123 |
+| [pages/diy/engineTrouble.html](/pages/diy/engineTrouble.html) | HTML | 246 | 0 | 25 | 271 |
+| [pages/diy/suspTrouble.html](/pages/diy/suspTrouble.html) | HTML | 259 | 0 | 28 | 287 |
+| [pages/diy/tranTrouble.html](/pages/diy/tranTrouble.html) | HTML | 206 | 0 | 25 | 231 |
+| [pages/drivetrain.html](/pages/drivetrain.html) | HTML | 51 | 0 | 14 | 65 |
+| [pages/drivetrain/fwd.html](/pages/drivetrain/fwd.html) | HTML | 75 | 4 | 18 | 97 |
+| [pages/drivetrain/rwd.html](/pages/drivetrain/rwd.html) | HTML | 75 | 4 | 18 | 97 |
+| [pages/engines.html](/pages/engines.html) | HTML | 58 | 0 | 14 | 72 |
+| [pages/index.html](/pages/index.html) | HTML | 49 | 0 | 9 | 58 |
+| [pages/petrol/inline4P.html](/pages/petrol/inline4P.html) | HTML | 141 | 4 | 39 | 184 |
+| [pages/petrol/rotary.html](/pages/petrol/rotary.html) | HTML | 75 | 2 | 17 | 94 |
+| [pages/petrol/v6P.html](/pages/petrol/v6P.html) | HTML | 75 | 2 | 17 | 94 |
+| [pages/quizes.html](/pages/quizes.html) | HTML | 44 | 0 | 3 | 47 |
+| [pages/sources.html](/pages/sources.html) | HTML | 92 | 0 | 13 | 105 |
+| [pages/suspension.html](/pages/suspension.html) | HTML | 52 | 0 | 14 | 66 |
+| [pages/suspension/newsusp.html](/pages/suspension/newsusp.html) | HTML | 78 | 4 | 18 | 100 |
+| [pages/suspension/oldsusp.html](/pages/suspension/oldsusp.html) | HTML | 72 | 2 | 17 | 91 |
+| [pages/temp models.html](/pages/temp%20models.html) | HTML | 22 | 15 | 14 | 51 |
+| [scripts/diyDrop.js](/scripts/diyDrop.js) | JavaScript | 13 | 0 | 0 | 13 |
+| [scripts/engButtonsRotary.js](/scripts/engButtonsRotary.js) | JavaScript | 103 | 0 | 12 | 115 |
+| [scripts/engButtonsV6.js](/scripts/engButtonsV6.js) | JavaScript | 103 | 0 | 12 | 115 |
+| [scripts/engButtonsi4.js](/scripts/engButtonsi4.js) | JavaScript | 104 | 0 | 11 | 115 |
+| [scripts/fwdButtons.js](/scripts/fwdButtons.js) | JavaScript | 82 | 0 | 12 | 94 |
+| [scripts/loading.js](/scripts/loading.js) | JavaScript | 4 | 3 | 0 | 7 |
+| [scripts/newSusButtons.js](/scripts/newSusButtons.js) | JavaScript | 89 | 0 | 11 | 100 |
+| [scripts/oldSusButtons.js](/scripts/oldSusButtons.js) | JavaScript | 89 | 0 | 11 | 100 |
+| [scripts/quiz.js](/scripts/quiz.js) | JavaScript | 80 | 8 | 20 | 108 |
+| [scripts/rwdButtons.js](/scripts/rwdButtons.js) | JavaScript | 82 | 0 | 12 | 94 |
+| [scripts/toTop.js](/scripts/toTop.js) | JavaScript | 11 | 0 | 1 | 12 |
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

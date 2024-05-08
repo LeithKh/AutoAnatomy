@@ -1,0 +1,48 @@
+Date : 2024-05-07 21:21:11
+Directory : c:\Users\subar\OneDrive\Desktop\Diplome\pages
+Total : 19 files,  1834 codes, 37 comments, 327 blanks, all 2198 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| HTML     |         19 |      1,834 |         37 |        327 |      2,198 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                     |         19 |      1,834 |         37 |        327 |      2,198 |
+| . (Files)                                                             |          8 |        423 |         15 |         91 |        529 |
+| diy                                                                   |          4 |        820 |          0 |         92 |        912 |
+| drivetrain                                                            |          2 |        150 |          8 |         36 |        194 |
+| petrol                                                                |          3 |        291 |          8 |         73 |        372 |
+| suspension                                                            |          2 |        150 |          6 |         35 |        191 |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                              | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy.html                | HTML     |         55 |          0 |         10 |         65 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy\clutchTrouble.html  | HTML     |        109 |          0 |         14 |        123 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy\engineTrouble.html  | HTML     |        246 |          0 |         25 |        271 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy\suspTrouble.html    | HTML     |        259 |          0 |         28 |        287 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy\tranTrouble.html    | HTML     |        206 |          0 |         25 |        231 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\drivetrain.html         | HTML     |         51 |          0 |         14 |         65 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\drivetrain\fwd.html     | HTML     |         75 |          4 |         18 |         97 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\drivetrain\rwd.html     | HTML     |         75 |          4 |         18 |         97 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\engines.html            | HTML     |         58 |          0 |         14 |         72 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\index.html              | HTML     |         49 |          0 |          9 |         58 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\petrol\inline4P.html    | HTML     |        141 |          4 |         39 |        184 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\petrol\rotary.html      | HTML     |         75 |          2 |         17 |         94 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\petrol\v6P.html         | HTML     |         75 |          2 |         17 |         94 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\quizes.html             | HTML     |         44 |          0 |          3 |         47 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\sources.html            | HTML     |         92 |          0 |         13 |        105 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\suspension.html         | HTML     |         52 |          0 |         14 |         66 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\suspension\newsusp.html | HTML     |         78 |          4 |         18 |        100 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\suspension\oldsusp.html | HTML     |         72 |          2 |         17 |         91 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\temp models.html        | HTML     |         22 |         15 |         14 |         51 |
+| Total                                                                 |          |      1,834 |         37 |        327 |      2,198 |
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+

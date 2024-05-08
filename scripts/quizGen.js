@@ -2,17 +2,23 @@
 const quiz = [
   {
     question: "Which engine part is shown in the image?",
-    image: "engine_part_1.jpg",
-    options: ["Option 1", "Option 2", "Option 3"],
+    image: "/images/quiz/gen/clutch.jpg",
+    options: ["Clutch", "Piston", "Driveshaft"],
     answer: 0
   },
   {
+    question: "Which engine part is considered the 'building block', without which the engine cant exist",
+    image: "/images/quiz/susp/UCA.jpg",
+    options: ["Bushing", "Airbag connector", "Upper control arm"],
+    answer: 2
+  },
+  {
     question: "Which engine part is shown in the image?",
-    image: "engine_part_1.jpg",
-    options: ["Option 1", "Option 2", "Option 3"],
-    answer: 1
-  }
-  // Add more quiz questions here as needed
+    image: "/images/quiz/engine/rotor.jpg",
+    options: ["Rotor", "Piston", "Camshaft"],
+    answer: 0
+  },
+  
 ];
 
 let currentQuestion = 0;
@@ -32,6 +38,7 @@ function initializeQuiz() {
 function showQuestion() {
   const currentQuiz = quiz[currentQuestion];
 
+  document.getElementById("question-text").innerText = currentQuiz.question;
   document.getElementById("question-image").src = currentQuiz.image;
 
   const optionsContainer = document.getElementById("options-container");

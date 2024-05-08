@@ -24,7 +24,7 @@
         </div>
 
         <header>
-            <h1>Auto Anatomy</h1>
+            <h1><a href="/pages/index.html">Auto Anatomy</a></h1>
             <h6>your one-stop shop for car knowledge!</h6>
         </header>
 
@@ -46,9 +46,6 @@
             <div class="viewportContainer">
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
             <model-viewer id="modelViewer" src="/models/drivetrain/fwd/fwdTran.glb" alt="3D Model viewport" shadow-intensity="0" camera-controls ar exposure="1.0">
-                <button class="hotspot" slot="hotspot-engine" data-position="0.0285 0 0.001" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible" onclick="toggleAnnotation(0)">
-                    <div class="annotation" onclick="changeModel(1)">Engine Block</div>
-                </button>
                 
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
                 
@@ -65,7 +62,6 @@
     
         <div class="buttonsContainer">
             <button onclick="changeModel(-1)">◀ Previous part</button>
-            <button onclick="showAssemblyPopup()">Assembly guide</button>
             <button onclick="changeModel(1)">Next part ▶</button>
         </div>
     
