@@ -1,26 +1,27 @@
 # Summary
 
-Date : 2024-05-07 21:21:11
+Date : 2024-05-12 17:35:14
 
 Directory c:\\Users\\subar\\OneDrive\\Desktop\\Diplome\\pages
 
-Total : 19 files,  1834 codes, 37 comments, 327 blanks, all 2198 lines
+Total : 24 files,  2110 codes, 43 comments, 361 blanks, all 2514 lines
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
 ## Languages
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| HTML | 19 | 1,834 | 37 | 327 | 2,198 |
+| HTML | 24 | 2,110 | 43 | 361 | 2,514 |
 
 ## Directories
 | path | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| . | 19 | 1,834 | 37 | 327 | 2,198 |
-| . (Files) | 8 | 423 | 15 | 91 | 529 |
+| . | 24 | 2,110 | 43 | 361 | 2,514 |
+| . (Files) | 8 | 440 | 15 | 97 | 552 |
 | diy | 4 | 820 | 0 | 92 | 912 |
-| drivetrain | 2 | 150 | 8 | 36 | 194 |
-| petrol | 3 | 291 | 8 | 73 | 372 |
+| drivetrain | 2 | 142 | 8 | 36 | 186 |
+| petrol | 4 | 362 | 10 | 89 | 461 |
+| quizes | 4 | 196 | 4 | 12 | 212 |
 | suspension | 2 | 150 | 6 | 35 | 191 |
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

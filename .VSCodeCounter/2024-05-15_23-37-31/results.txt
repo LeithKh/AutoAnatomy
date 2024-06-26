@@ -1,0 +1,39 @@
+Date : 2024-05-15 23:37:31
+Directory : c:\Users\subar\OneDrive\Desktop\Diplome\scripts
+Total : 15 files,  1127 codes, 31 comments, 178 blanks, all 1336 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         15 |      1,127 |         31 |        178 |      1,336 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                   |         15 |      1,127 |         31 |        178 |      1,336 |
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                            | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\diyDrop.js          | JavaScript |         13 |          0 |          0 |         13 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsMisc.js   | JavaScript |         87 |          0 |         12 |         99 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsRotary.js | JavaScript |        103 |          0 |         12 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsV6.js     | JavaScript |        103 |          0 |         12 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsi4.js     | JavaScript |        104 |          0 |         11 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\fwdButtons.js       | JavaScript |         87 |          0 |         12 |         99 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\loading.js          | JavaScript |          4 |          3 |          0 |          7 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\newSusButtons.js    | JavaScript |         89 |          0 |         11 |        100 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\oldSusButtons.js    | JavaScript |         89 |          0 |         11 |        100 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizDri.js          | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizEng.js          | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizGen.js          | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizSus.js          | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\rwdButtons.js       | JavaScript |         89 |          0 |         12 |        101 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\toTop.js            | JavaScript |         11 |          0 |          1 |         12 |
+| Total                                                               |            |      1,127 |         31 |        178 |      1,336 |
++---------------------------------------------------------------------+------------+------------+------------+------------+------------+

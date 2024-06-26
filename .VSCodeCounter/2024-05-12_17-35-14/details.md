@@ -1,10 +1,10 @@
 # Details
 
-Date : 2024-05-07 21:21:11
+Date : 2024-05-12 17:35:14
 
 Directory c:\\Users\\subar\\OneDrive\\Desktop\\Diplome\\pages
 
-Total : 19 files,  1834 codes, 37 comments, 327 blanks, all 2198 lines
+Total : 24 files,  2110 codes, 43 comments, 361 blanks, all 2514 lines
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -17,14 +17,19 @@ Total : 19 files,  1834 codes, 37 comments, 327 blanks, all 2198 lines
 | [pages/diy/suspTrouble.html](/pages/diy/suspTrouble.html) | HTML | 259 | 0 | 28 | 287 |
 | [pages/diy/tranTrouble.html](/pages/diy/tranTrouble.html) | HTML | 206 | 0 | 25 | 231 |
 | [pages/drivetrain.html](/pages/drivetrain.html) | HTML | 51 | 0 | 14 | 65 |
-| [pages/drivetrain/fwd.html](/pages/drivetrain/fwd.html) | HTML | 75 | 4 | 18 | 97 |
-| [pages/drivetrain/rwd.html](/pages/drivetrain/rwd.html) | HTML | 75 | 4 | 18 | 97 |
+| [pages/drivetrain/fwd.html](/pages/drivetrain/fwd.html) | HTML | 71 | 4 | 18 | 93 |
+| [pages/drivetrain/rwd.html](/pages/drivetrain/rwd.html) | HTML | 71 | 4 | 18 | 93 |
 | [pages/engines.html](/pages/engines.html) | HTML | 58 | 0 | 14 | 72 |
-| [pages/index.html](/pages/index.html) | HTML | 49 | 0 | 9 | 58 |
+| [pages/index.html](/pages/index.html) | HTML | 55 | 0 | 10 | 65 |
 | [pages/petrol/inline4P.html](/pages/petrol/inline4P.html) | HTML | 141 | 4 | 39 | 184 |
+| [pages/petrol/misc.html](/pages/petrol/misc.html) | HTML | 71 | 2 | 16 | 89 |
 | [pages/petrol/rotary.html](/pages/petrol/rotary.html) | HTML | 75 | 2 | 17 | 94 |
 | [pages/petrol/v6P.html](/pages/petrol/v6P.html) | HTML | 75 | 2 | 17 | 94 |
-| [pages/quizes.html](/pages/quizes.html) | HTML | 44 | 0 | 3 | 47 |
+| [pages/quizes.html](/pages/quizes.html) | HTML | 55 | 0 | 8 | 63 |
+| [pages/quizes/quizDri.html](/pages/quizes/quizDri.html) | HTML | 49 | 1 | 3 | 53 |
+| [pages/quizes/quizEng.html](/pages/quizes/quizEng.html) | HTML | 49 | 1 | 3 | 53 |
+| [pages/quizes/quizGen.html](/pages/quizes/quizGen.html) | HTML | 49 | 1 | 3 | 53 |
+| [pages/quizes/quizSus.html](/pages/quizes/quizSus.html) | HTML | 49 | 1 | 3 | 53 |
 | [pages/sources.html](/pages/sources.html) | HTML | 92 | 0 | 13 | 105 |
 | [pages/suspension.html](/pages/suspension.html) | HTML | 52 | 0 | 14 | 66 |
 | [pages/suspension/newsusp.html](/pages/suspension/newsusp.html) | HTML | 78 | 4 | 18 | 100 |

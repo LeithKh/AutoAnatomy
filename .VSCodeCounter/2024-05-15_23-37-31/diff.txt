@@ -1,0 +1,73 @@
+Date : 2024-05-15 23:37:31
+Directory : c:\Users\subar\OneDrive\Desktop\Diplome\scripts
+Total : 39 files,  -983 codes, -12 comments, -183 blanks, all -1178 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         15 |      1,127 |         31 |        178 |      1,336 |
+| HTML       |         24 |     -2,110 |        -43 |       -361 |     -2,514 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                     |         39 |       -983 |        -12 |       -183 |     -1,178 |
+| . (Files)                                                             |         15 |      1,127 |         31 |        178 |      1,336 |
+| ..                                                                    |         24 |     -2,110 |        -43 |       -361 |     -2,514 |
+| ..\pages                                                              |         24 |     -2,110 |        -43 |       -361 |     -2,514 |
+| ..\pages (Files)                                                      |          8 |       -440 |        -15 |        -97 |       -552 |
+| ..\pages\diy                                                          |          4 |       -820 |          0 |        -92 |       -912 |
+| ..\pages\drivetrain                                                   |          2 |       -142 |         -8 |        -36 |       -186 |
+| ..\pages\petrol                                                       |          4 |       -362 |        -10 |        -89 |       -461 |
+| ..\pages\quizes                                                       |          4 |       -196 |         -4 |        -12 |       -212 |
+| ..\pages\suspension                                                   |          2 |       -150 |         -6 |        -35 |       -191 |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                              | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy.html                | HTML       |        -55 |          0 |        -10 |        -65 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy\clutchTrouble.html  | HTML       |       -109 |          0 |        -14 |       -123 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy\engineTrouble.html  | HTML       |       -246 |          0 |        -25 |       -271 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy\suspTrouble.html    | HTML       |       -259 |          0 |        -28 |       -287 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\diy\tranTrouble.html    | HTML       |       -206 |          0 |        -25 |       -231 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\drivetrain.html         | HTML       |        -51 |          0 |        -14 |        -65 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\drivetrain\fwd.html     | HTML       |        -71 |         -4 |        -18 |        -93 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\drivetrain\rwd.html     | HTML       |        -71 |         -4 |        -18 |        -93 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\engines.html            | HTML       |        -58 |          0 |        -14 |        -72 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\index.html              | HTML       |        -55 |          0 |        -10 |        -65 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\petrol\inline4P.html    | HTML       |       -141 |         -4 |        -39 |       -184 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\petrol\misc.html        | HTML       |        -71 |         -2 |        -16 |        -89 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\petrol\rotary.html      | HTML       |        -75 |         -2 |        -17 |        -94 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\petrol\v6P.html         | HTML       |        -75 |         -2 |        -17 |        -94 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\quizes.html             | HTML       |        -55 |          0 |         -8 |        -63 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\quizes\quizDri.html     | HTML       |        -49 |         -1 |         -3 |        -53 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\quizes\quizEng.html     | HTML       |        -49 |         -1 |         -3 |        -53 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\quizes\quizGen.html     | HTML       |        -49 |         -1 |         -3 |        -53 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\quizes\quizSus.html     | HTML       |        -49 |         -1 |         -3 |        -53 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\sources.html            | HTML       |        -92 |          0 |        -13 |       -105 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\suspension.html         | HTML       |        -52 |          0 |        -14 |        -66 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\suspension\newsusp.html | HTML       |        -78 |         -4 |        -18 |       -100 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\suspension\oldsusp.html | HTML       |        -72 |         -2 |        -17 |        -91 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\pages\temp models.html        | HTML       |        -22 |        -15 |        -14 |        -51 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\diyDrop.js            | JavaScript |         13 |          0 |          0 |         13 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsMisc.js     | JavaScript |         87 |          0 |         12 |         99 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsRotary.js   | JavaScript |        103 |          0 |         12 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsV6.js       | JavaScript |        103 |          0 |         12 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsi4.js       | JavaScript |        104 |          0 |         11 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\fwdButtons.js         | JavaScript |         87 |          0 |         12 |         99 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\loading.js            | JavaScript |          4 |          3 |          0 |          7 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\newSusButtons.js      | JavaScript |         89 |          0 |         11 |        100 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\oldSusButtons.js      | JavaScript |         89 |          0 |         11 |        100 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizDri.js            | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizEng.js            | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizGen.js            | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizSus.js            | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\rwdButtons.js         | JavaScript |         89 |          0 |         12 |        101 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\toTop.js              | JavaScript |         11 |          0 |          1 |         12 |
+| Total                                                                 |            |       -983 |        -12 |       -183 |     -1,178 |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+

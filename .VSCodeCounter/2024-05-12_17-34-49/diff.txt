@@ -1,0 +1,32 @@
+Date : 2024-05-12 17:34:49
+Directory : c:\Users\subar\OneDrive\Desktop\Diplome\scripts
+Total : 8 files,  367 codes, 20 comments, 76 blanks, all 463 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |          8 |        367 |         20 |         76 |        463 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                 |          8 |        367 |         20 |         76 |        463 |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                          | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\engButtonsMisc.js | JavaScript |         87 |          0 |         12 |         99 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\fwdButtons.js     | JavaScript |          5 |          0 |          0 |          5 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quiz.js           | JavaScript |        -80 |         -8 |        -20 |       -108 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizDri.js        | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizEng.js        | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizGen.js        | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\quizSus.js        | JavaScript |         87 |          7 |         21 |        115 |
+| c:\Users\subar\OneDrive\Desktop\Diplome\scripts\rwdButtons.js     | JavaScript |          7 |          0 |          0 |          7 |
+| Total                                                             |            |        367 |         20 |         76 |        463 |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
